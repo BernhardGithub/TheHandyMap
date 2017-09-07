@@ -13,6 +13,9 @@ namespace TheHandyMap.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+            /**
+             * hure 
+             * **/
         }
 
         protected override void OnModelCreating(ModelBuilder builder)
